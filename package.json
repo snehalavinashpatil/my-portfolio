@@ -4,9 +4,12 @@
   "description": "snehal is learning",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html",
-    "test": "jest"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -17,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/snehalavinashpatil/namaste-react/issues"
   },
-  "homepage": "https://github.com/snehalavinashpatil/namaste-react#readme",
+  "homepage": "https://snehalavinashpatil.github.io/my-portfolio/",
   "devDependencies": {
     "parcel": "^2.12.0",
     "process": "^0.11.10"
